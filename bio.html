@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Natalie's Website</title>
+    <link rel="stylesheet" href="navbar.css">
+    <meta charset="UTF-8">
+ </head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+    <ul class="menu-items">
+      <li><a href="navbar.html">Home</a></li>
+      <li><a href="https://docs.google.com/document/d/10xkxSM6XOXRPSYBC-K69U4VVQvZ20fV2SiLRpK9sARA">Resume</a></li>
+      <li><a href="bio.html">Bio</a></li>
+    </ul>
+  </nav>
+  </div>
+</header>
+<p>
+Hi! My name is Natalie Mogul. I have three siblings, two older sisters and a younger brother.
+I was born and raised in New York City on the Upper West Side. I love to play soccer and I am on the 
+women's club team at Northwestern. I graduated from Northwestern undergrad last year in Biomedical Engineering,
+but I decided I liked Computer Science a lot more and am doing an extra year as a masters student!
+<br> <br> If you would like to contact me, email me at nataliemogul2022@u.northwestern.edu or fill out this form! <br><br>
+</p>
+
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="emailField" required><br>
+    <label for="tel">Phone Number: (please include dashes) </label><br>
+    <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required><br>
+    <p>Reason for contact:</p>
+    <input type="radio" id="computer science" name="contact_reason" value="Computer Science">
+    <label for="computer science">Interested in computer science</label><br>
+    <input type="radio" id="nyc" name="contact_reason" value="NYC">
+    <label for="nyc">Interested in NYC</label><br>
+    <input type="radio" id="other" name="contact_reason" value="Other">
+    <label for="other">Other</label><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

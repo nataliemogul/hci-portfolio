@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+header {
+  background: pink;
+}
+
+nav li {
+  margin-left: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color: purple;
+}
+
+.project-grid {
+  display: grid;
+  display: flex;
+  flex-direction: column;
+	grid-template-columns: 1fr 1fr;
+}
+
+.project-wrapper {
+	text-align: center;
+	width: 200;
+	margin: 100px auto;
+}
+
+.project-art {
+	width: 200px;
+	height: 200px;
+}
+
+.project-name {
+	font-size: 20px;
+}
+
+  
